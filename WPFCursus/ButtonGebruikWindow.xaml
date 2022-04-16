@@ -1,0 +1,45 @@
+﻿<Window x:Class="WPFCursus.ButtonGebruikWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCursus"
+        mc:Ignorable="d"
+        Title="ButtonGebruik" Height="350" Width="525">
+    <StackPanel>
+        <Label BorderBrush="Black" BorderThickness="2" Name="LabelTekst"
+            Height="50">Dit is de tekstblok die we gaan manipuleren</Label>
+        <StackPanel Orientation="Horizontal">
+            <ToggleButton Margin="10" Name="ButtonBold" Checked="ButtonBold_Checked" Unchecked="ButtonBold_Unchecked">
+                <StackPanel>
+                    <Image Source="pack://application:,,,/Images/bold.png"/>
+                    <Label>Bold</Label>
+                </StackPanel>
+            </ToggleButton>
+            <ToggleButton Margin="10" Name="ButtonItalic" Checked="ButtonItalic_Checked">
+                <StackPanel>
+                    <Image Name="schuinknop"/>
+                    <Label>Italic</Label>
+                </StackPanel>
+            </ToggleButton>
+            <TextBlock Margin="10">Lettertype vergroten of verkleinen</TextBlock>
+            <RepeatButton Margin="10" Width="30" Name="RepeatButtonGroter" Interval="100"
+ Delay="1000" Click="RepeatButtonGroter_Click">+</RepeatButton>
+            <RepeatButton Margin="10" Width="30" Name="RepeatButtonKleiner" Interval="100"
+ Delay="1000" Click="RepeatButtonKleiner_Click">-</RepeatButton>
+        </StackPanel>
+        <Label Margin="0 30 0 10" BorderBrush="Blue"
+ BorderThickness="1">Tekstkleur</Label>
+        <StackPanel>
+            <RadioButton Content="Blue" GroupName="kleur" Margin="5 0" Checked="Kleur_Checked"/>
+            <RadioButton Content="Green" GroupName="kleur" Margin="5 0" Checked="Kleur_Checked"/>
+            <RadioButton Content="Red" GroupName="kleur" Margin="5 0" Checked="Kleur_Checked"/>
+            <RadioButton Content="Black" GroupName="kleur" Margin="5 0" Checked="Kleur_Checked"/>
+        </StackPanel>        <Label Margin="0 30 0 10" BorderBrush="Blue"
+ BorderThickness="1">Bold en Italic</Label>
+        <StackPanel Orientation="Horizontal">
+            <CheckBox Name="CheckBoxBold" Content="Bold" Margin="10 0" Click="CheckBoxBold_Click"/>
+            <CheckBox Name="CheckBoxItalic" Content="Italic" Margin="10 0" Click="ButtonItalic_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

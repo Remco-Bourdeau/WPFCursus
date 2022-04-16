@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCursus", "WPFCursus\WPFCursus.csproj", "{C2CF8968-EB19-40B3-8CA8-5FDF30C19F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFOefeningen", "WPFOefeningen\WPFOefeningen.csproj", "{3DFFBC97-FD60-4274-8516-427659A5B4D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2CF8968-EB19-40B3-8CA8-5FDF30C19F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CF8968-EB19-40B3-8CA8-5FDF30C19F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CF8968-EB19-40B3-8CA8-5FDF30C19F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CF8968-EB19-40B3-8CA8-5FDF30C19F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFFBC97-FD60-4274-8516-427659A5B4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFFBC97-FD60-4274-8516-427659A5B4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFFBC97-FD60-4274-8516-427659A5B4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFFBC97-FD60-4274-8516-427659A5B4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9AB620E-F3D3-4142-9D89-6637C93A1BB6}
+	EndGlobalSection
+EndGlobal

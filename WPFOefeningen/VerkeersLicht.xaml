@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPFOefeningen.VerkeersLicht"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="VerkeersLicht" Height="350" Width="525">
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <StackPanel Background="Yellow">
+            <Ellipse Name="RoodLicht" Fill="Red" Height="71"
+ HorizontalAlignment="Left" Margin="10" VerticalAlignment="Top"
+ Width="69" />
+            <Ellipse Name="OranjeLicht" Fill="Orange" Height="71"
+ HorizontalAlignment="Left" Margin="10" VerticalAlignment="Top"
+ Width="69" Opacity="0" />
+            <Ellipse Name="GroenLicht" Fill="Green" Height="71"
+ HorizontalAlignment="Left" Margin="10" VerticalAlignment="Top"
+ Width="69" Opacity="0" />
+        </StackPanel>
+        <StackPanel Margin="50,0" VerticalAlignment="Center">
+            <Button Name="ButtonGo" Content="Go" Height="30" Width="100"
+ Background="Green" Margin="20" Click="ButtonGo_Click"
+ IsEnabled="False"></Button>
+            <Button Name="ButtonOpgelet" Content="Opgelet" Height="30" Width="100"
+ Background="Orange" Margin="20"
+ Click="ButtonOpgelet_Click"></Button>
+            <Button Name="ButtonStop" Content="Stop" Height="30" Width="100"
+ Background="Red" Margin="20" IsEnabled="False"
+ Click="ButtonStop_Click"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
