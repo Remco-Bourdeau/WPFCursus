@@ -7,13 +7,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\atletiek.jpg" />
+    <None Remove="images\basketbal.jpg" />
     <None Remove="images\bold.png" />
+    <None Remove="images\drum.jpg" />
+    <None Remove="images\gitaar.jpg" />
     <None Remove="images\italic.png" />
+    <None Remove="images\piano.jpg" />
+    <None Remove="images\tennis.jpg" />
+    <None Remove="images\trompet.jpg" />
+    <None Remove="images\turnen.jpg" />
+    <None Remove="images\voetbal.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\atletiek.jpg" />
+    <Resource Include="images\basketbal.jpg" />
     <Resource Include="images\bold.png" />
+    <Resource Include="images\drum.jpg" />
+    <Resource Include="images\gitaar.jpg" />
     <Resource Include="images\italic.png" />
+    <Resource Include="images\piano.jpg" />
+    <Resource Include="images\tennis.jpg" />
+    <Resource Include="images\trompet.jpg" />
+    <Resource Include="images\turnen.jpg" />
+    <Resource Include="images\voetbal.jpg" />
   </ItemGroup>
 
 </Project>

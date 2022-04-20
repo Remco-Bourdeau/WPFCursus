@@ -7,11 +7,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\anne.jpg" />
+    <None Remove="images\bob.jpg" />
+    <None Remove="images\collega1.jpg" />
+    <None Remove="images\collega2.jpg" />
+    <None Remove="images\collega3.jpg" />
+    <None Remove="images\ed.jpg" />
+    <None Remove="images\grotezus.jpg" />
     <None Remove="images\pizza.jpg" />
+    <None Remove="images\tantenon.jpg" />
+    <None Remove="images\telefoon2.jpg" />
+    <None Remove="images\vader.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\anne.jpg" />
+    <Resource Include="images\bob.jpg" />
+    <Resource Include="images\collega1.jpg" />
+    <Resource Include="images\collega2.jpg" />
+    <Resource Include="images\collega3.jpg" />
+    <Resource Include="images\ed.jpg" />
+    <Resource Include="images\grotezus.jpg" />
     <Resource Include="images\pizza.jpg" />
+    <Resource Include="images\tantenon.jpg" />
+    <Resource Include="images\telefoon2.jpg" />
+    <Resource Include="images\vader.jpg" />
   </ItemGroup>
 
 </Project>
